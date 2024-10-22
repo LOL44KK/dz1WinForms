@@ -32,6 +32,7 @@ namespace dz1WinForms
         private void Button_Click(object sender, EventArgs e)
         {
             MessageBox.Show(((Button)sender).Name);
+            ((Button)sender).Enabled = false;
         }
     }
 }
